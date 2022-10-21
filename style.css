@@ -1220,79 +1220,43 @@ body {
   @media only screen and (min-width: 880px) and (max-width: 1300px) 
   {
    
-  
-    header {
-      display: flex;
-    display: inline-flex;  
-    justify-content: center;
-  width: 90%;
-  height: auto;
-  padding: 25px 0px 90px 0;
-  
-  }
-  nav {
-  display: inline-flex;
-  justify-content: center;
-      align-content: center;
-      width:100%;
-      max-width: 1186px;
-      font-family: 'Nunito Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  } 
-  #firstNav {
-  width: 100%;
-  }
-  #endNav {
-  width: 100%;
-  display: inline-flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  gap: 5%;
-  
-  }
-  .Amber-DiPietro {
-  width: 100%;
-  display: flex;
-  align-self: flex-start;
-  padding-left: 15%;
-  }
-  
+   
+
   
   /*-------Hero Space---------*/
   .hero {
-  display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-      padding-top:0px;
+  display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      align-content: center !important;
+      padding-top:60px !important;
   }
   .intro {
-  width: 100%;
-    max-width: 400px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 12px;
-  margin: 40px 0px 140px 60px;
-  padding-right: 0px;
+  width: 100% !important;
+    max-width: 400px !important;
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  margin: 40px 0px 10px 0px !important;
+  padding-right: 0px !important;
   }
   .content {
-  width: 100%;
-  height: auto;
-  flex-grow: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 32px;
-  padding: 0;
+  width: 100% !important;
+  height: auto !important;
+  flex-grow: 0 ;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  gap: 32px !important;
+  padding: 0 !important;
   }
    .UIUX-Designer {
-  height: auto;
-  align-self: stretch;
+  height: auto !important;
+  align-self: stretch !important;
   flex-grow: 0;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
@@ -1305,24 +1269,24 @@ body {
   color: #070055;
   }
   .headerImage {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  display: flex;
-  float: right;
-  top: 110px;
-  margin: 10px 0px 0px 0px;
+  width: 100% !important;
+  max-width: 400px !important;
+  height: auto !important;
+  display: flex !important;
+  float: right !important;
+  top: 110px !important;
+  margin: 10px 0px 0px 0px !important;
   
   }
   .Title {
-  width: 100%;
-    max-width: 486px;
-  height: auto;
+  width: 100% !important;
+    max-width: 486px !important;
+  height: auto !important;
   flex-grow: 0;
   font-family: PlayfairDisplay;
-  font-size: 54px;
-  font-weight: bold;
-  font-stretch: normal;
+  font-size: 54px !important;
+  font-weight: bold !important;
+  font-stretch: normal !important;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -1335,9 +1299,9 @@ body {
   }
   
   .introParagraph {
-  width: 100%;
-    max-width: 486px;
-  height: auto;
+  width: 100% !important;
+    max-width: 486px !important;
+  height: auto !important;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   font-weight: normal;
@@ -1350,33 +1314,35 @@ body {
   }
   /*-------Buttons---------*/
   .buttons {
-  max-width: 243px;
-  width: 100%;
-  height: 43px;
+  max-width: 243px !important;
+  width: 100% !important;
+  height: 43px !important;
   text-align: center;
   flex-grow: 0;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-content: center;
-  align-items: center;
-  gap: 12px;
+  justify-content: flex-start !important;
+  align-content: center !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 5px;
   
   }
   
   
   .button-primary {
-  width: 110px;
-  height: 30px;
-  text-align: center;
-  flex-grow: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 8px 24px;
-  border-radius: 8px;
-  background-color: #070055;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+   padding: 8px 20px 8px 20px;
+    border-radius: 8px;
+    background-color: #070055;
+    cursor:pointer;
   transition: .2s ease-in-out 0s;
   }
   .button-primary:hover {
@@ -1384,17 +1350,18 @@ body {
   transform: scale(1.1);
   }
   .button-secondary {
-  width: 100%;
-  height: 28px;
-  text-align: center;
-  flex-grow: 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 8px 22px;
-  border-radius: 8px;
-  border: solid 2px #070055;
-  transition: .2s ease-in-out 0s;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 22px 5px 22px;
+    border-radius: 8px;
+    border: solid 2px #070055;
+    cursor:pointer;
+
   }
   .button-secondary:hover {
   cursor:pointer;
@@ -1433,10 +1400,10 @@ body {
   
   /*-------Project---------*/
   .projectSection {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important; 
+    justify-content: center !important;
     align-items: center;
     align-content: space-between;
     flex-direction: column;
@@ -1446,12 +1413,12 @@ body {
   
   }
   .projectText {
-  width: 181px;
-  height: 120px;
-  display: flex;
+  width: 100% !important;
+  height: auto !important;
+  display: flex !important;
   padding-top: 30px;
   font-family: PlayfairDisplay;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -1464,73 +1431,73 @@ body {
   
   
   .project1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  height: auto;
-  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-content: center !important;
+  height: auto !important;
+  width: 100% !important;
   
   }
   .project-nfo1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 350px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 350px !important;
   height: auto;
   border-radius: 20px 0px 0px 20px;
   padding: 40px 40px 40px 40px;
   background-color: #fff;
   }
   .yellowRectangle {
-  display: flex;
-  width: 100%;
-  max-width: 350px;
-  height: auto;
+  display: flex !important;
+  width: 100% !important;
+  max-width: 350px !important;
+  height: auto !important;
   border-radius: 0px 20px 20px 0px;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 20px 25px !important;
   
   background-color: rgba(255, 199, 0, 0.38);
   }
   .imageStack3 {
-  display: grid;
-  position: relative;
-  grid-template-columns: repeat(12, 1fr);
+  display: grid !important;
+  position: relative !important;
+  grid-template-columns: repeat(12, 1fr) !important;
   }
   .diyimage1 {
   
-  width: 224px;
-  height: auto;
-  grid-row: 1;
-  grid-column: 1 / span 8;
-  z-index: 1;
+  width: 200px !important;
+  height: auto !important;
+  grid-row: 1 !important;
+  grid-column: 1 / span 8 !important;
+  z-index: 1 !important;
   }
   
   .diyimage2 {
-    width: 224px;
-    height: auto;
-    grid-column: 5 / 9;
-    grid-row: 1;
-    padding-top: 17%; 
+    width: 200px !important;
+    height: auto !important;
+    grid-column: 5 / 9 !important;
+    grid-row: 1 !important;
+    padding-top: 17% !important; 
   }
   .mydiyText {
-  width: 100%;
-  max-width: 406.7px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: space-between;
-  gap: 24px;
+  width: 100% !important;
+  max-width: 406.7px !important;
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  align-content: space-between !important;
+  gap: 24px !important;
   
   }
   .MYDIY {
-  height: 60px;
-  align-self: stretch;
+  height: 60px !important;
+  align-self: stretch !important;
   flex-grow: 0;
   font-family: PlayfairDisplay;
   font-size: 40px;
@@ -1595,14 +1562,14 @@ body {
   }
   /*------------project2-----------*/
   .project2 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: center !important;
+  align-content: center !important;
   height: auto;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   }
   
   .project-nfo2 {
@@ -1615,7 +1582,7 @@ body {
   max-width: 350px;
   height: auto;
   border-radius: 0px 20px 20px 0px;
-  padding: 60px 40px 60px 40px;
+  padding: 50px 40px 50px 40px;
   background-color: #fff;
   }
   .TRheader {
@@ -1679,26 +1646,24 @@ body {
   max-width: 350px;
   height: auto;
   border-radius: 20px 0px 0px 20px;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 40px 0px 20px;
   background-color: rgba(7, 0, 85, 0.27);
   }
   .trimage1 {
   width: 100%;
-  max-width: 380px;
+  max-width: 400px;
   grid-row: 1;
-  grid-column: 1 / span 11;
-  padding-top: 40%;
+  grid-column: 1 / span 12;
+  padding-top: 60%;
   z-index: 1;
   }
   
   .trimage2 {
-  
-  
-  width: 308px;
+  width: 300px;
   height: auto;
-  grid-column: 4 / -1;
+  grid-column: 2 / -1;
   grid-row: 1; 
-  padding-top:10%;
+  padding-top:0%;
   }
   
   /*---------project3----------*/
@@ -1720,7 +1685,7 @@ body {
   max-width: 350px;
   height: auto;
   border-radius: 20px 0px 0px 20px;
-  padding: 70px 40px 70px 40px;
+  padding: 50px 40px 50px 30px;
   background-color: #fff;
   }
   .doeblocktext {
@@ -1765,7 +1730,7 @@ body {
   max-width: 350px;
   height: auto;
   border-radius: 0px 20px 20px 0px;
-  padding: 0px 40px 0 40px;
+  padding: 0px 10px 0 10px;
   background-color: rgba(185, 66, 18, 0.54);
   }
   .imageStack2 {
@@ -1778,8 +1743,8 @@ body {
   max-width: 368px;
   height: auto;
   grid-row: 1;
-  grid-column: 1 / span 10;
-  padding-top: 40%;
+  grid-column: 1 / span 11;
+  padding-top: 60%;
   z-index: 1;
   }
   .DOEheader {
@@ -1802,7 +1767,6 @@ body {
   height: auto;
   grid-column: 3 / -1;
   grid-row: 1; 
-  padding-top: 15%;
   
   }
   /*-------------expertise section-------*/
@@ -1810,7 +1774,7 @@ body {
   .expertise {
   height: auto;
   width: 100%;
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 0px;
   margin: 0px 0 0 0;
   display: flex;
@@ -1901,14 +1865,14 @@ body {
   height: 309px;
   flex-grow: 0;
   border-radius: 10px;
-  padding: 25px 15px 0px 0px;
+  padding: 0px 15px 0px 0px;
   }
   .food2 {
   width: 153px;
   height: 309px;
   flex-grow: 0;
   border-radius: 10px;
-  padding: 25px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   }
   
   /*------------box3------------*/
@@ -1932,7 +1896,7 @@ body {
   display: flex;
   position: absolute;
   justify-content: center;
-  padding: 30px 25px 10px 0px;
+  padding: 0px 25px 10px 0px;
   width: 284px;
   height: 284px;
   
@@ -1940,7 +1904,7 @@ body {
   .healthy2  {
   width: 275px;
   height: 275px;
-  padding: 60px 0px 0px 40px;
+  padding: 30px 0px 0px 40px;
   flex-grow: 0;
   }
   
@@ -2011,7 +1975,7 @@ body {
   }
   /*------------social media design----------*/
   .socialblue {
-  width: 95%;
+  width: 100%;
   height: 400px;
   display:flex;
   justify-content: flex-start;
@@ -2027,9 +1991,9 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-self: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin: 0px 0 0 0;
   font-family: PlayfairDisplay;
   font-size: 38px;
@@ -2265,13 +2229,13 @@ body {
   /* Style the submit button with a specific background color etc */
   input[type=send] {
     background-color: #fdc435;
-    width: 50px;
+    width: 58px;
     height: 26px;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     font-weight: 600;
     color: rgb(37, 36, 36);
-    padding: 5px 10px;
+    padding: 10px 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -2412,25 +2376,15 @@ body {
   /** mobile breakpoint **/
   
   @media only screen and (max-width: 600px) {
-    #endNav {
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      padding-top: 15px;
-      padding-bottom: 0px;
-    }
-   
-    #firstNav {
-      display: none;
-    }
+    
     .yellowRectangle {
-      display: none;
+      display: none !important;
     }
     .orangeRectangle {
-      display: none;
+      display: none !important;
     }
     .blueRectangle {
-      display: none;
+      display: none !important;
     }
     .projectSection {
       width: 100%;
@@ -2458,6 +2412,10 @@ body {
       align-items: center;
       gap: 12px;
       
+      }
+      .projectSection {
+        width: 100% !important;
+        height: auto !important;
       }
     .project1 {
       display: flex;
@@ -2552,14 +2510,14 @@ body {
     }
     .TRheader {
       height: auto;
-      align-self: center;
+      align-self: stretch;
       flex-grow: 0;
       font-family: PlayfairDisplay;
       font-size: 32px;
       font-weight: bold;
       font-stretch: normal;
       font-style: normal;
-      padding: 0 0 0 0px;
+      padding: 0 0 0 35px;
       line-height: 1.5;
       letter-spacing: normal;
       text-align: left;
@@ -2589,18 +2547,19 @@ body {
       width: 100%;
       }
     .project-nfo3 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-     width: 100%;
-      max-width: 345px;
-      height: auto;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+     width: 100% !important;
+      max-width: 345px !important;
+      height: auto !important;
       border-radius: 20px 20px 20px 20px;
-      padding: 50px 10px 40px 10px;
+      padding: 50px 10px 50px 10px !important;
       background-color: #fff;
       box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
-      }
+    }
+      
       .DOEheader {
         height: auto;
         align-self: stretch;
@@ -2630,10 +2589,28 @@ body {
         text-align: left;
         color: #1f1f1f;
       }
+      .doeButton {
+        width: 100%;
+        height: auto;
+        flex-grow: 0;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #070055;
+        
+      }
       .expertise {
         height: auto;
         width: 100%;
-        padding-top: 0px;
+        padding-top: 50px;
         padding-bottom: 50px;
         margin: 0px 0 0 0px;
         display: flex;
@@ -2809,7 +2786,7 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
-    margin:-200px 0 0 0;
+    margin:-180px 0 0 0;
     padding-top: 15px;
     font-family: PlayfairDisplay;
     font-size: 32px;
@@ -2818,7 +2795,7 @@ body {
     .containerCarousel {
       display: flex;
       width: 180px;
-      margin: -150px auto 0 auto;
+      margin: 30px auto 0 auto;
       perspective: 1800px;
     }
     
@@ -2906,8 +2883,8 @@ body {
         justify-content: center;
         font-family: PlayfairDisplay;
         font-size: 32px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 35px;
+        padding-bottom: 60px;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -2917,13 +2894,14 @@ body {
         color: #25282b;
       }
       .connectP {
-        width: 100%;
-        height: 80px;
-        display: flex;
+        width: 100% !important;
+        height: auto !important;
+        display: flex !important;
         flex-grow: 0;
+        justify-content: center !important;
         font-family: 'Nunito Sans', sans-serif;
         font-size: 16px;
-        align-self: center;
+        align-self: center !important;
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
@@ -2995,7 +2973,7 @@ body {
         /* Style the submit button with a specific background color etc */
         input[type=send] {
           background-color: #fdc435;
-          width: 50px;
+          width: 58px;
           height: 26px;
           font-family: 'Nunito Sans', sans-serif;
           text-align: center;
@@ -3053,7 +3031,7 @@ body {
       height: 15px;
       display: flex;
       justify-content: center;
-      padding: 15px 0px 0px 0px;
+      padding: 15px 0px 15px 0px;
       flex-grow: 0;
       font-family: 'Nunito Sans', sans-serif;
       font-size: 12px;
@@ -3140,7 +3118,7 @@ body {
     display:none;
   }
    
-  }
+}
   
 /** ipad break point **/
 @media only screen 
@@ -3156,7 +3134,7 @@ and (min-width: 601px)and (max-width: 879px)
         justify-content: center;
         align-items: center;
         align-content: center;
-        padding-top:0px;
+        padding-top:90px;
     }
 
     .expertblock {
@@ -3197,35 +3175,35 @@ and (min-width: 601px)and (max-width: 879px)
     align-content: center;
     align-items: center;
     width: 100%;
-    max-width: 250px;
+    max-width: 290px;
     height: auto;
     border-radius: 20px 0px 0px 20px;
-    padding: 40px 40px 40px 40px;
+    padding: 30px 10px 30px 10px;
     background-color: #fff;
   }
   .yellowRectangle {
     display: flex;
     width: 100%;
-    max-width: 250px;
+    max-width: 290px;
     height: auto;
     border-radius: 0px 20px 20px 0px;
-    padding: 60px 40px 20px 20px;
+    padding: 40px 40px 20px 20px;
     background-color: rgba(255, 199, 0, 0.38);
   }
   .diyimage1 {
-    width: 150px;
+    width: 150px !important;
     height: auto;
     grid-row: 1;
-  grid-column: 1 / span 8;
+  grid-column: 1 / span 8!important;
     z-index: 1;
     }
   
     .diyimage2 {
-      width: 150px;
+      width: 150px !important;
       height: auto;
-      grid-column: 7 / 12;
+      grid-column: 6 / 8!important;
       grid-row: 1;
-      padding-top: 17%; 
+      padding-top: 30%; 
     }
   .MYDIY {
     height: auto;
@@ -3248,7 +3226,7 @@ and (min-width: 601px)and (max-width: 879px)
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
-    padding: 0px 40px 0px 30px;
+    padding: 0px 30px 0px 30px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
@@ -3272,7 +3250,7 @@ and (min-width: 601px)and (max-width: 879px)
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    padding: 0 30px 0 25px;
+    padding: 0 20px 0 20px;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -3285,19 +3263,19 @@ and (min-width: 601px)and (max-width: 879px)
     align-content: center;
     align-items: center;
     width: 100%;
-    max-width: 250px;
+    max-width: 290px;
     height: auto;
-    border-radius: 20px 20px 20px 20px;
-    padding: 50px 30px 50px 30px;
+    border-radius: 0px 20px 20px 0px;
+    padding: 50px 20px 50px 20px;
     background-color: #fff;
   }
   .blueRectangle {
     display: flex;
     width: 100%;
-    max-width: 250px;
+    max-width: 290px;
     height: auto;
     border-radius: 20px 0px 0px 20px;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 20px 0px 20px;
     background-color: rgba(7, 0, 85, 0.27);
   }
   .project2paragraph {
@@ -3316,9 +3294,9 @@ and (min-width: 601px)and (max-width: 879px)
   }
   .trimage1 {
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
   grid-row: 1;
-  grid-column: 1 / span 12;
+  grid-column: 1 / span 11;
   padding-top: 50%;
     z-index: 1;
     }
@@ -3341,19 +3319,19 @@ and (min-width: 601px)and (max-width: 879px)
     align-content: center;
     align-items: center;
     width: 100%;
-    max-width: 250px;
+    max-width: 290px;
     height: auto;
     border-radius: 20px 0px 0px 20px;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 10px 40px 10px;
     background-color: #fff;
     }
     .orangeRectangle {
       display: flex;
     width: 100%;
-    max-width: 250px;
+    max-width: 290px;
     height: auto;
     border-radius: 0px 20px 20px 0px;
-    padding: 60px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
     }
     .DOEheader {
       height: auto;
@@ -3399,18 +3377,26 @@ and (min-width: 601px)and (max-width: 879px)
       border-radius: 24px;
       border: solid 2px #070055;
     }
+    .doeButton1 {
+      margin-left: 50px;
+    }
     .doeButton {
-      width: 100%;
-      height: 27px;
+      width: 100% !important;
+      height: auto !important;
+      flex-grow: 0;
+      justify-content: center !important;
+      align-content: center !important;
+      align-items: center!important;
       font-family: 'Nunito Sans', sans-serif;
       font-size: 15px;
       font-weight: 600;
       font-stretch: normal;
       font-style: normal;
-      line-height: 1.8;
+      line-height: 1.5;
       letter-spacing: normal;
-      text-align: center;
+      text-align: left;
       color: #070055;
+      margin-left: 5px;
     }
     .diyButton {
       width: 100%;
@@ -3431,7 +3417,7 @@ and (min-width: 601px)and (max-width: 879px)
     }
     .doeimage1 {
       width: 100%;
-        max-width: 368px;
+        max-width: 400px;
       height: auto;
       grid-row: 1;
       grid-column: 1 / span 12;
@@ -3633,7 +3619,7 @@ color: #25282b;
   display: flex;
   justify-content: center;
   align-self: center;
-  margin:-200px 0 0 0;
+  margin:-250px 0 0 0;
   padding-top: 15px;
   font-family: PlayfairDisplay;
   font-size: 32px;
@@ -3642,7 +3628,7 @@ color: #25282b;
   .containerCarousel {
     display: flex;
     width: 180px;
-    margin: -150px auto 0 auto;
+    margin: 20px auto 0 auto;
     perspective: 1800px;
   }
   
@@ -3748,7 +3734,7 @@ color: #25282b;
       font-family: PlayfairDisplay;
       font-size: 32px;
       padding-top: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 50px;
       font-weight: bold;
       font-stretch: normal;
       font-style: normal;
@@ -3759,7 +3745,8 @@ color: #25282b;
     }
     .connectP {
       width: 100%;
-      height: 80px;
+      height: auto;
+      padding-bottom: 30px;
       display: flex;
       flex-grow: 0;
       font-family: 'Nunito Sans', sans-serif;
@@ -3837,7 +3824,7 @@ color: #25282b;
       /* Style the submit button with a specific background color etc */
       input[type=send] {
         background-color: #fdc435;
-        width: 50px;
+        width: 60px;
         height: 26px;
         font-family: 'Nunito Sans', sans-serif;
         text-align: center;
@@ -3895,7 +3882,7 @@ margin: 400px 0 0 0;
     height: 15px;
     display: flex;
     justify-content: center;
-    padding: 15px 0px 0px 0px;
+    padding: 15px 0px 15px 0px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 12px;
