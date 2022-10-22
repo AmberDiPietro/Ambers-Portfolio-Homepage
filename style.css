@@ -3148,37 +3148,37 @@ and (min-width: 601px)and (max-width: 879px)
         
   }
   .projectSection {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 100%!important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center!important;
+    align-content: space-between!important;
+    flex-direction: column!important;
+    justify-content: space-between!important;
     padding-top: 50px;
     padding-bottom: 50px;
 
   }
   .project1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    height: auto;
-    width: 100%;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-content: center!important;
+    height: auto !important;
+    width: 100%!important;
   }
   .project-nfo1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-content: center!important;
+    align-items: center!important;
     width: 100%;
-    max-width: 290px;
-    height: auto;
+    max-width: 290px!important;
+    height: auto!important;
     border-radius: 20px 0px 0px 20px;
-    padding: 30px 10px 30px 10px;
+    padding: 30px 0px 30px 10px;
     background-color: #fff;
   }
   .yellowRectangle {
