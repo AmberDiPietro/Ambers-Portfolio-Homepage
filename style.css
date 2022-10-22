@@ -189,9 +189,11 @@ body {
     border-radius: 8px;
     border: solid 2px #070055;
     cursor:pointer;
-
+    
   }
  
+  a:hover { text-decoration: none; }
+
     .linkedIn {
       display: flex;
     width: 100%;
