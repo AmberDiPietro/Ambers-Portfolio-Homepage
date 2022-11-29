@@ -966,7 +966,7 @@ input[type=text], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=send] {
+.submit {
   background-color: #fdc435;
   width: 70px;
   height: 30px;
